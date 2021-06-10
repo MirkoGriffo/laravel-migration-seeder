@@ -12,7 +12,7 @@ class TravelsTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 0; $i <= 80; $i++) {
+        for ($i = 0; $i < 80; $i++) {
             //creazione istanza
             $new_travel = new Travel();
 
