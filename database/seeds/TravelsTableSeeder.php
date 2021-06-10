@@ -19,7 +19,7 @@ class TravelsTableSeeder extends Seeder
             //popola colonne
             $new_travel->città = 'Venezia';
             $new_travel->nazione = 'Italia';
-            $new_travel->giorni = rand(1, 15);
+            $new_travel->giorni = rand(3, 21);
             $new_travel->descrizione = 'descrizione del viaggio.................';
             $new_travel->num_persone = rand(1, 8);
             $new_travel->prezzo = rand(70, 6500);

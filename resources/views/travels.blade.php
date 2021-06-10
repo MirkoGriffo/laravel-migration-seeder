@@ -10,7 +10,7 @@
         <div class="card">
             <h2>{{$travel->città }}</h2>
             <h2>{{$travel->nazione }}</h2>
-            <h2>{{$travel->giorni }}</h2>
+            <h2>{{$travel->giorni }} giorni</h2>
             <p>{{$travel->descrizione }}</p>
             <h2>{{$travel->prezzo }}€</h2>
         </div>
